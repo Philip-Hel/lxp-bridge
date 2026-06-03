@@ -1,5 +1,5 @@
-ARG BUILD_VERSION
-ARG BUILD_FROM
+ARG BUILD_FROM=ghcr.io/home-assistant/amd64-base:latest
+ARG BUILD_VERSION=v0.13.0
 
 FROM celsworth/lxp-bridge:${BUILD_VERSION} AS lxp-bridge
 
